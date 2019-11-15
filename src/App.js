@@ -15,16 +15,10 @@ function App() {
             <div className="App">
                 <header>
                     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-                        <a className="navbar-brand">TSG Spark Hackathon - Ed Recommendations Engine</a>
+                        <a className="navbar-brand"><strong>TSG Spark Hackathon - Ed Content Recommendations Service</strong></a>
 
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav ml-auto">
-                                <li className="nav-item active">
-                                    <Link className="nav-link" to={"/create-user"}>Create User</Link>
-                                </li>
-                                <li className="nav-item">
-                                    <Link className="nav-link" to={"/users"}>Users List</Link>
-                                </li>
                             </ul>
                         </div>
                     </nav>
